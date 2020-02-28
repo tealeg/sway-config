@@ -1,0 +1,2 @@
+* Sway Config
+Not much to see here, just the dot fies to set up my [[https://github.com/swaywm/sway][sway desktop]] the way I like it.
