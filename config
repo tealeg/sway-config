@@ -31,18 +31,17 @@ font pango:"IBM Plex Mono 14"
 
 
 # Your preferred terminal emulator
-set $term havoc
+set $term kitty
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to swayo
 set $menu dmenu_path | dmenu -fn "IBM Plex Mono-14" | xargs swaymsg exec --
-o
 exec mako
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg /home/tealeg/Pictures/Apollo-Linden.jpg fill
+output * bg /home/tealeg/Pictures/Lisp.jpg fill
 #
 # Example configuration:
 #
@@ -248,13 +247,6 @@ bindsym XF86MonBrightnessDown exec lightctl lower
 
 for_window [shell=".*"] title_format "%title :: %shell"
 
-for_window [app_id="avizo-service"] border pixel 0
-for_window [app_id="avizo-service"] sticky toggle
-no_focus [app_id="avizo-service"]
-
-
-
-exec "avizo-service"
 
 
 #
