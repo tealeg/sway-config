@@ -39,6 +39,11 @@ interval = 5
 use_bits = false
 
 [[block]]
+block = "battery"
+driver = "upower"
+device = "DisplayDevice"
+
+[[block]]
 block = "backlight"
 
 [[block]]
